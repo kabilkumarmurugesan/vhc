@@ -1,12 +1,12 @@
 // AppRouter.tsx
 import React from "react";
 import { createBrowserRouter, RouterProvider } from "react-router-dom";
-import withLayout from "../hoc/withLayout";
-import Home from "../pages/Home";
-import Patients from "../pages/Patients";
-import Appointments from "../pages/Appointments";
-import Records from "../pages/Records";
-import UserProfile from "../pages/UserProfile";
+import withLayout from "./hoc/withLayout";
+import Home from "./pages/Home";
+import Patients from "./pages/Patients";
+import Appointments from "./pages/Appointments";
+import Records from "./pages/Records";
+import UserProfile from "./pages/UserProfile";
 
 const router = createBrowserRouter([
   {
